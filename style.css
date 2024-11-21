@@ -1,0 +1,26 @@
+body {
+    margin: 300px; /* Fixed margin */
+    background-color: #ffffff; /* Poor readability */
+    color: #fff; /* Text blends with background */
+}
+
+header, footer {
+    background-color: #4CAF50;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 10px;
+    color: #000; /* Color does not match design */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img.float {
+    float: left;
+    margin: 0 10px 10px 0;
+}
